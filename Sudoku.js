@@ -131,8 +131,7 @@ function addNumber() {
 
 //delete number of Tile
 deleteNum.onclick = () => {
-   if (!lastSelected.classList.cont
-      ains("filled")) {
+   if (!lastSelected.classList.contains("filled")) {
       lastSelected.innerText = "";
 
    }
